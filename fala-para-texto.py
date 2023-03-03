@@ -23,7 +23,7 @@ if(args[0] == "-h"):
     help()
 else:
     # define a chave de API do OpenAI
-    openai.api_key = "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"
+    openai.api_key = ""
 
     # define o prompt de entrada
     prompt = args[0]+". Em português"
